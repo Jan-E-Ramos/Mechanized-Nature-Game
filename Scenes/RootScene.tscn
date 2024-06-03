@@ -9,6 +9,7 @@
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_6v3e5")]
 position = Vector2(310, 203)
 up_direction = Vector2(0, 1)
+accel = 10.17
 
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(236, 198)
