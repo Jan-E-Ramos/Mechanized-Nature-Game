@@ -12,6 +12,7 @@ position = Vector2(23, 20.5)
 shape = SubResource("RectangleShape2D_pvueg")
 
 [node name="Icon" type="Sprite2D" parent="."]
+modulate = Color(1, 0, 0, 1)
 scale = Vector2(0.351563, 0.3125)
 texture = ExtResource("1_r7my3")
 centered = false

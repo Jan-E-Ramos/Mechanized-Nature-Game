@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://cxdol531i5034" path="res://Stuff/Player.tscn" id="1_6v3e5"]
 [ext_resource type="Texture2D" uid="uid://d2e7qb1qq8jtn" path="res://Stuff/icon.svg" id="2_5iwqs"]
-[ext_resource type="PackedScene" uid="uid://cvk8jps342i3m" path="res://Stuff/static_body_2d.tscn" id="3_s8df2"]
+[ext_resource type="PackedScene" uid="uid://cvk8jps342i3m" path="res://Stuff/testwall.tscn" id="3_s8df2"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -15,4 +15,4 @@ position = Vector2(236, 198)
 texture = ExtResource("2_5iwqs")
 
 [node name="StaticBody2D" parent="." instance=ExtResource("3_s8df2")]
-position = Vector2(344, 173)
+position = Vector2(354, 176)
