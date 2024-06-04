@@ -1,0 +1,52 @@
+[gd_scene load_steps=4 format=3 uid="uid://bmildsu3eluna"]
+
+[ext_resource type="Texture2D" uid="uid://bpr6ydo6fnaug" path="res://Artwork/Jeric's Artwork/Tileset WIP.png" id="1_3xnxu"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3t7js"]
+resource_name = "Caves"
+texture = ExtResource("1_3xnxu")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+1:0/0 = 0
+1:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:0/0/physics_layer_0/angular_velocity = 0.0
+2:0/0 = 0
+2:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+2:0/0/physics_layer_0/angular_velocity = 0.0
+3:0/0 = 0
+3:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+3:0/0/physics_layer_0/angular_velocity = 0.0
+4:0/0 = 0
+4:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+4:0/0/physics_layer_0/angular_velocity = 0.0
+5:0/0 = 0
+5:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+5:0/0/physics_layer_0/angular_velocity = 0.0
+6:0/0 = 0
+6:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+6:0/0/physics_layer_0/angular_velocity = 0.0
+6:1/0 = 0
+6:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+6:1/0/physics_layer_0/angular_velocity = 0.0
+0:1/0 = 0
+0:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:1/0/physics_layer_0/angular_velocity = 0.0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, 27, 18.5, 28, 22, 16.5, 18.5, 9, -32, 8)
+
+[sub_resource type="TileSet" id="TileSet_1ebq0"]
+tile_size = Vector2i(64, 64)
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_3t7js")
+
+[node name="TileMap" type="TileMap"]
+y_sort_enabled = true
+tile_set = SubResource("TileSet_1ebq0")
+format = 2
+layer_0/name = "floor"
+layer_0/z_index = -1
+layer_0/tile_data = PackedInt32Array(0, 0, 0, 65537, 0, 0, 65536, 0, 0, 1, 0, 0)
+layer_1/name = "Blocking"
+layer_1/y_sort_enabled = true
+layer_1/tile_data = PackedInt32Array(65537, 0, 1, 1, 0, 1)
