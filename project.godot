@@ -14,6 +14,7 @@ config/name="Mechanized Nature"
 run/main_scene="res://Scenes/RootScene.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://Stuff/icon.svg"
+<<<<<<<HEADconfig/name="Mechanized Nature"
 
 [editor]
 
