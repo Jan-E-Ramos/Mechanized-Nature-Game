@@ -7,7 +7,7 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_6v3e5")]
-position = Vector2(318, 134)
+position = Vector2(318, 202)
 up_direction = Vector2(0, 1)
 accel = 10.17
 
