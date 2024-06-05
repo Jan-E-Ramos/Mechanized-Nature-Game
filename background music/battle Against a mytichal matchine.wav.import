@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d1epnj32rs2gw"
+path="res://.godot/imported/battle Against a mytichal matchine.wav-9484385a5169d0c35c01ee926754ecf1.sample"
+
+[deps]
+
+source_file="res://background music/battle Against a mytichal matchine.wav"
+dest_files=["res://.godot/imported/battle Against a mytichal matchine.wav-9484385a5169d0c35c01ee926754ecf1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
